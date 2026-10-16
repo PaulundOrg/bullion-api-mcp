@@ -1,6 +1,9 @@
 {
   "name": "bullion-api",
-  "version": "0.2.1",
+  "version": "0.2.2",
+  "license": "MIT",
+  "icon": "./assets/bullion-api-icon.png",
+  "privacyPolicyUrl": "https://bullionapi.dev/privacy",
   "description": "Ask your agent about gold: read-only precious-metal prices, central-bank gold, macro data and your Bullion API portfolio, with dates and sources.",
   "author": {
     "name": "Bullion API",
