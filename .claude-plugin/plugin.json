@@ -1,9 +1,14 @@
 {
   "name": "bullion-api",
+  "displayName": "Bullion API",
   "version": "0.2.2",
   "license": "MIT",
   "icon": "./assets/bullion-api-icon.png",
   "privacyPolicyUrl": "https://bullionapi.dev/privacy",
+  "supportUrl": "https://bullionapi.dev/contact",
+  "documentationUrl": "https://bullionapi.dev/docs/mcp",
+  "termsOfServiceUrl": "https://bullionapi.dev/terms",
+  "repository": "https://github.com/PaulundOrg/bullion-api-mcp",
   "description": "Ask your agent about gold: read-only precious-metal prices, central-bank gold, macro data and your Bullion API portfolio, with dates and sources.",
   "author": {
     "name": "Bullion API",
