@@ -20,12 +20,16 @@ Directory submissions are separate, explicit steps. OpenAI's review needs five p
 
 ## Submission preparation
 
-Version 0.2.1 includes explicit OpenAI OAuth/DCR metadata and five positive and three
+Version 0.2.2 includes explicit OpenAI OAuth/DCR metadata and five positive and three
 negative review scenarios. These describe expected behaviour; they are not recorded
 passing results. The full operator pack is `docs/mcp-submission-pack.md` in the
 application repository and must stay outside the uploaded plugin archive. It includes
 ChatGPT, Claude and Muse intake copy, a demo script, local ZIP instructions and the
 remaining operator inputs. No directory submission or publication is claimed.
+
+The customer package is published at <https://github.com/PaulundOrg/bullion-api-mcp>.
+Its configuration, assets and bundled skills are licensed under MIT; see `LICENSE`.
+The Bullion API service and returned data remain subject to their separate terms.
 
 ## Product links
 

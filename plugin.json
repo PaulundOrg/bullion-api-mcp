@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bullion-api",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Ask your agent about gold: read-only precious-metal prices, central-bank gold, macro data and portfolio review using Bullion API.",
   "author": {
     "name": "Bullion API",
