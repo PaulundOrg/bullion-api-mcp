@@ -1,0 +1,18 @@
+{
+  "name": "bullion-api",
+  "version": "0.2.1",
+  "description": "Ask your agent about gold: read-only precious-metal prices, central-bank gold, macro data and your Bullion API portfolio, with dates and sources.",
+  "author": {
+    "name": "Bullion API",
+    "email": "hello@bullionapi.dev",
+    "url": "https://bullionapi.dev"
+  },
+  "homepage": "https://bullionapi.dev/docs/mcp",
+  "keywords": ["bullion", "gold", "market-data", "central-banks", "portfolio", "read-only"],
+  "mcpServers": {
+    "bullion-api": {
+      "type": "http",
+      "url": "https://api.bullionapi.dev/mcp"
+    }
+  }
+}

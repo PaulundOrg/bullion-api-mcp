@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "bullion-api": {
+      "type": "streamable-http",
+      "url": "https://api.bullionapi.dev/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": { "mode": "dcr" },
+            "resource": "https://api.bullionapi.dev/mcp",
+            "defaultScopes": ["market:read", "macro:read", "portfolio:read", "offline_access"]
+          }
+        }
+      }
+    }
+  }
+}

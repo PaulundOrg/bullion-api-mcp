@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Bullion API">
+  <rect width="128" height="128" rx="26" fill="#17191c" />
+  <path d="m24 78 12-35h56l12 35-12 17H36L24 78Z" fill="#b8913d" />
+  <path
+    d="m36 43 13 17h30l13-17M24 78h80"
+    fill="none"
+    stroke="#f3d88d"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+  <path d="M49 60 43 95m36-35 6 35" fill="none" stroke="#805f20" stroke-width="4" />
+</svg>
