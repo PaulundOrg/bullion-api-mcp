@@ -30,8 +30,8 @@
         ],
         "brandColor": "#8A641E",
         "brandColorDark": "#E6B450",
-        "composerIcon": "./assets/bullion-api-icon.svg",
-        "logo": "./assets/bullion-api-icon.svg"
+        "composerIcon": "./assets/bullion-api-icon.png",
+        "logo": "./assets/bullion-api-icon.png"
       },
       "review": {
         "commerce": false,
