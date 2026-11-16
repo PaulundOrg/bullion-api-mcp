@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.bullionapi/bullion-api",
+  "title": "Bullion API",
+  "description": "Read-only gold and precious-metal prices, central-bank gold and macro data. OAuth sign-in.",
+  "version": "0.2.2",
+  "websiteUrl": "https://bullionapi.dev/docs/mcp",
+  "remotes": [{ "type": "streamable-http", "url": "https://api.bullionapi.dev/mcp" }]
+}
