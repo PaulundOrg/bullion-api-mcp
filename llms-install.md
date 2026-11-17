@@ -23,8 +23,9 @@ transactions. It has no trade, payment or portfolio-changing tool.
 1. Add a remote MCP server to the client's MCP settings with the type
    `streamable-http` (Streamable HTTP) and the URL above. Name it `bullion-api`.
 2. Start the connection. The client opens a browser sign-in page at Bullion API.
-3. The user signs in. The consent screen has one "Allow read-only access" button.
-   If the client also asks for `offline_access`, the screen lists "Stay connected"
+3. The user signs in and, on the consent screen, approves read-only access with the
+   "Allow read-only access" button, or declines. If the client also asks for
+   `offline_access`, the screen lists "Stay connected"
    among the requested access; approving it lets the client renew its access
    without signing in again. Each renewal starts a new 30-day window, so a client
    that renews at least every 30 days stays connected.
