@@ -14,29 +14,25 @@ repository. The server is hosted; nothing is cloned, built or run locally.
   `Authorization` header.
 
 The server is read-only. It provides gold and precious-metal prices, central-bank
-gold data and macro data. It has no trade, payment or portfolio-changing tool.
+gold data and macro data. Its default scopes include `portfolio:read`, so a default
+connection can also read the signed-in user's own portfolio, lots, gains and
+transactions. It has no trade, payment or portfolio-changing tool.
 
 ## Steps
 
 1. Add a remote MCP server to the client's MCP settings with the type
    `streamable-http` (Streamable HTTP) and the URL above. Name it `bullion-api`.
 2. Start the connection. The client opens a browser sign-in page at Bullion API.
-3. The user signs in and approves read-only access on the consent screen. They
-   can also approve "Stay connected", which lets the client renew its access
-   without signing in again for up to 30 days.
+3. The user signs in. The consent screen has one "Allow read-only access" button.
+   If the client also asks for `offline_access`, the screen lists "Stay connected"
+   among the requested access; approving it lets the client renew its access
+   without signing in again. Each renewal starts a new 30-day window, so a client
+   that renews at least every 30 days stays connected.
 4. When the connection is ready, the client lists the server's tools. Read-only
    tools such as `get_metal_price` and `get_metal_price_history` should appear.
 5. Check the result with one read-only call, for example the latest gold price in
    USD. Report the value with its observation date, because the data is a dated
    observation and not a live quote.
-
-## Claude Code
-
-The pre-registered client can be used instead of dynamic registration:
-
-```bash
-claude mcp add --transport http --client-id bullion-claude-code-prod --callback-port 43829 bullion-api https://api.bullionapi.dev/mcp
-```
 
 ## If something fails
 
